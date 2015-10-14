@@ -1,0 +1,13 @@
+---
+title: Commentaries
+layout: page
+pageOrder: 2
+---
+
+<nav class="linklist">
+	<% for document in @getCollection('commentaries').toJSON(): %>
+		<li><span><%= document.datum %></span>
+		&raquo;
+		<a href="<%= document.url %>"><%= document.title %></a></li>
+	<% end %>
+</nav>

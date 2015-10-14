@@ -1,0 +1,74 @@
+@import 'nib'
+
+a, a:link
+	cursor pointer
+
+body
+	padding-top 60px
+
+.home-title
+	margin-bottom: 20px
+
+.introHeader {
+	margin-top: -10px
+	height: 150px
+  background-image: url('../images/ocean.jpg')
+  background-repeat: no-repeat
+  z-index: -1
+  padding: 15px
+}
+
+.navbar-inverse::after
+	content: ''
+	background-image: url('../images/ocean.jpg')
+	display: block
+	position: absolute
+	top: 0
+	left: 0
+	width: 100%
+	height: 100%
+	opacity: .1
+	z-index: -1
+
+.introText
+	font-size: 28px
+	font-weight: 600
+	line-height: 30px
+	color: #EDF4F8
+	text-shadow: 2px 2px 4px black
+	
+.introTextRight
+	text-align: right
+	
+.introTitle
+	margin-top: 20px
+	font-size: 42px
+	font-weight: 800
+	line-height: 46px
+	
+.source-title
+	margin-top: 40px
+
+.source-title-text
+	font-weight: bold
+	text-decoration: underline
+	
+.col500
+	column-count: 1
+	column-gap: 10px
+
+table
+	tfoot, tbody
+		th
+			border-top 1px solid #DDD
+
+@media (min-width: 992px) {
+	.home-title {
+		margin-top: 70px
+		margin-bottom: 70px
+	}
+	.col500 {
+		column-count: 2
+		column-gap: 10px
+	}
+}

@@ -1,0 +1,34 @@
+---
+title: Events
+layout: page
+pageOrder: 1
+---
+
+<table class='table table-striped table-responsive'>
+	<tr>
+		<th>Date</th>
+		<th>Type</th>
+		<th>Event</th>
+		<th>Link</th>
+	</tr>
+	<% for document in @getCollection('events').toJSON(): %>
+		<tr>
+			<td>
+				<%= document.datum %>
+			</td>
+			<td>
+				<%= document.eventtype %>
+			</td>
+			<td>
+				<% if document.content.length > 0: %>
+					<a href="<%= document.url %>"><%= document.title %></a>
+				<% else: %>
+				  <%= document.title %></a>
+				<% end %>
+			</td>
+			<td>
+				<a href="<%= document.linkurl %>" target="_blank"><%= document.linktext %></a>
+			</td>
+		</tr>
+	<% end %>
+</table>
