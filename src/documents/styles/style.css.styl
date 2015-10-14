@@ -1,5 +1,8 @@
 @import 'nib'
 
+p, div
+	font-size: medium
+
 a, a:link
 	cursor pointer
 
@@ -18,19 +21,7 @@ body
   padding: 15px
 }
 
-.navbar-inverse::after
-	content: ''
-	background-image: url('../images/ocean.jpg')
-	display: block
-	position: absolute
-	top: 0
-	left: 0
-	width: 100%
-	height: 100%
-	opacity: .1
-	z-index: -1
-
-.introText
+.introText, .introText div
 	font-size: 28px
 	font-weight: 600
 	line-height: 30px
@@ -56,6 +47,23 @@ body
 .col500
 	column-count: 1
 	column-gap: 10px
+	
+.commentary p,
+.commentary .row
+	margin-bottom: 20px
+	
+.commentary h1
+	text-align: center
+	font-size: x-large
+	font-weight: 800
+
+.commentary h2
+	text-align: center
+	font-size: large
+	font-weight: 800
+	margin-top: 30px
+	margin-bottom: 20px
+	
 
 table
 	tfoot, tbody
