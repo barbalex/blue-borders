@@ -1,12 +1,27 @@
 {
-  "name": "no-skeleton.docpad",
+  "name": "blue-borders.ch",
   "version": "0.1.0",
-  "description": "New DocPad project without using a skeleton",
+  "description": "Migration in the central mediterranean",
+  "author": "Alexander Gabriel",
   "dependencies": {
-    "docpad": "~6.78.4"
+    "docpad": "~6.78.4",
+    "docpad-plugin-cleanurls": "2.8.1",
+    "docpad-plugin-coffeescript": "2.5.0",
+    "docpad-plugin-downloader": "2.1.4",
+    "docpad-plugin-eco": "2.1.0",
+    "docpad-plugin-less": "2.4.1",
+    "docpad-plugin-marked": "^2.3.0",
+    "docpad-plugin-partials": "2.9.2",
+    "docpad-plugin-related": "2.2.2",
+    "docpad-plugin-stylus": "2.11.0",
+    "docpad-plugin-text": "2.3.3"
+  },
+  "devDependencies": {
+    "docpad-plugin-livereload": "2.6.1"
   },
   "main": "node_modules/.bin/docpad-server",
   "scripts": {
-    "start": "node_modules/.bin/docpad-server"
+    "start": "node_modules/.bin/docpad-server",
+    "deploy": "surge --project ./out --domain blue-borders.surge.sh"
   }
 }
