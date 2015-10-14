@@ -76,6 +76,17 @@
 								</li>
 							<% end %>
 						</ul>
+						<% for document in @getCollection('pagesAfterPublications').toJSON(): %>
+						<li
+							typeof="sioc:Page"
+							about="/pages/publicationsAcademic"
+							class="<%= 'active'	if @document.url is document.url %>"
+						>
+							<a href="<%= document.url %>" property="dc:title">
+								<%= document.title %>
+							</a>
+						</li>
+					<% end %>
 					</li>
 				</ul>
 			</div><!--/.navbar-collapse -->
@@ -106,11 +117,10 @@
 
 		<!-- Footer -->
 		<footer>
-			<br/>
-			<p class="pull-left">Copyright &copy; <%- (new Date()).getFullYear() %> Jürg Martin Gabriel. All Rights Reserved.</p>
-			<p class="pull-right">
-				Last updated at <%= document.mtime.getFullYear() %>.<%= document.mtime.getMonth() %>.<%= document.mtime.getDate() %>
-			</p>
+			<div style='margin-top: 50px; line-height: 0.8'>
+				<p>&copy; Jürg Martin Gabriel. All Rights Reserved.</p>
+				<p>Last updated <%= document.mtime.getFullYear() %>.<%= document.mtime.getMonth() %>.<%= document.mtime.getDate() %></p>
+			</div>
 		</footer>
 	</div><!-- /container -->
 
