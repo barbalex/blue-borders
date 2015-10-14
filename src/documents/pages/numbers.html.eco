@@ -1,11 +1,11 @@
 ---
-title: Commentaries
+title: Numbers
 layout: page
-pageOrder: 3
+pageOrder: 2
 ---
 
 <nav class="linklist">
-	<% for document in @getCollection('commentaries').toJSON(): %>
+	<% for document in @getCollection('numbers').toJSON(): %>
 		<li>
 			<a href="<%= document.url %>"><%= document.title %></a>
 		</li>

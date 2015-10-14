@@ -97,6 +97,9 @@ docpadConfig = {
 		events: (database) ->
 			database.findAllLive({tags:$has:'event'}, [name:-1])
 
+		numbers: (database) ->
+			database.findAllLive({tags:$has:'numbers'}, [datum:-1])
+
 		commentaries: (database) ->
 			database.findAllLive({tags:$has:'commentary'}, [datum:-1])
 
