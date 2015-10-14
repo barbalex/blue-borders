@@ -117,7 +117,7 @@
 
 		<!-- Footer -->
 		<footer>
-			<div style='margin-top: 50px; line-height: 0.8'>
+			<div style='margin-top: 70px; line-height: 0.8'>
 				<p>&copy; Jürg Martin Gabriel. All Rights Reserved.</p>
 				<p>Last updated <%= document.mtime.getFullYear() %>.<%= document.mtime.getMonth() %>.<%= document.mtime.getDate() %></p>
 			</div>
