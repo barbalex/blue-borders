@@ -1,0 +1,1 @@
+There are land or 'green' borders, and there are maritime or 'blue' borders. The focus of this website is on the latter - and on migration.
