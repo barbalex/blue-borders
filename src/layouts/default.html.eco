@@ -53,7 +53,7 @@
 					<% for document in @getCollection('pages').toJSON(): %>
 						<li
 							typeof="sioc:Page"
-							about="<%= document.url %>"
+							about="/pages/publicationsAcademic"
 							class="<%= 'active'	if @document.url is document.url %>"
 						>
 							<a href="<%= document.url %>" property="dc:title">
@@ -61,6 +61,22 @@
 							</a>
 						</li>
 					<% end %>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Publications <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<% for document in @getCollection('publicationPages').toJSON(): %>
+								<li
+									typeof="sioc:Page"
+									about="/pages/publicationsAcademic"
+									class="<%= 'active'	if @document.url is document.url %>"
+								>
+									<a href="<%= document.url %>" property="dc:title">
+										<%= document.title %>
+									</a>
+								</li>
+							<% end %>
+						</ul>
+					</li>
 				</ul>
 			</div><!--/.navbar-collapse -->
 		</div>
@@ -93,7 +109,7 @@
 			<br/>
 			<p class="pull-left">Copyright &copy; <%- (new Date()).getFullYear() %> Jürg Martin Gabriel. All Rights Reserved.</p>
 			<p class="pull-right">
-				Last updated at <%= @site.date.toISOString() %>
+				Last updated at <%= document.mtime.getFullYear() %>.<%= document.mtime.getMonth() %>.<%= document.mtime.getDate() %>
 			</p>
 		</footer>
 	</div><!-- /container -->

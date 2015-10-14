@@ -88,6 +88,9 @@ docpadConfig = {
 		pages: (database) ->
 			database.findAllLive({pageOrder: $exists: true}, [pageOrder:1,title:1])
 
+		publicationPages: (database) ->
+			database.findAllLive({publicationPageOrder: $exists: true}, [publicationPageOrder:1,title:1])
+
 		events: (database) ->
 			database.findAllLive({tags:$has:'event'}, [name:-1])
 
