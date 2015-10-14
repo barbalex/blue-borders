@@ -90,9 +90,10 @@
 
 		<!-- Footer -->
 		<footer>
-			<p class="pull-left">&copy; Company <%- (new Date()).getFullYear() %></p>
+			<br/>
+			<p class="pull-left">Copyright &copy; <%- (new Date()).getFullYear() %> Jürg Martin Gabriel. All Rights Reserved.</p>
 			<p class="pull-right">
-				This website was last updated at <%= @site.date.toISOString() %>
+				Last updated at <%= @site.date.toISOString() %>
 			</p>
 		</footer>
 	</div><!-- /container -->
