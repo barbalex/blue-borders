@@ -103,10 +103,10 @@
 			</div>
 			<div class='col-xs-3'>
 				<div class='pull-right introText introTextRight'>
-					<div>italy</div>
-					<div>malta</div>
-					<div>tunisia</div>
-					<div>libya</div>
+					<div>Italy</div>
+					<div>Malta</div>
+					<div>Tunisia</div>
+					<div>Libya</div>
 				</div>
 			</div>
 		</div>
@@ -119,7 +119,7 @@
 		<footer>
 			<div style='margin-top: 70px; line-height: 0.8'>
 				<p>&copy; Jürg Martin Gabriel. All Rights Reserved.</p>
-				<p>Last updated <%= document.mtime.getFullYear() %>.<%= document.mtime.getMonth() %>.<%= document.mtime.getDate() %></p>
+				<!--p>Last updated <%= document.mtime.getFullYear() %>.<%= document.mtime.getMonth() %>.<%= document.mtime.getDate() %></p-->
 			</div>
 		</footer>
 	</div><!-- /container -->
