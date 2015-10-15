@@ -70,7 +70,7 @@
 									about="/pages/publicationsAcademic"
 									class="<%= 'active'	if @document.url is document.url %>"
 								>
-									<a href="<%= document.url %>" property="dc:title">
+									<a href="<%= document.url %>" property="dc:title" class="level2">
 										<%= document.title %>
 									</a>
 								</li>
