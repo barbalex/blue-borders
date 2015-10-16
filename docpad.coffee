@@ -21,7 +21,7 @@ docpadConfig = {
 			]
 
 			# The default title of our website
-			title: "Your Website"
+			title: "blue borders"
 
 			# The website description (for SEO)
 			description: """
@@ -34,7 +34,7 @@ docpadConfig = {
 				"""
 
 			# The website author's name
-			author: "Your Name"
+			author: "Jürg Martin Gabriel"
 
 			# The website author's email
 			email: "your@email.com"
