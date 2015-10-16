@@ -523,16 +523,24 @@
 			"file": "src/documents/styles/style.css.styl",
 			"settings":
 			{
-				"buffer_size": 1515,
+				"buffer_size": 1524,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/layouts/default.html.eco",
+			"file": "/C/Users/alex/test/examples/blog/package.json",
 			"settings":
 			{
-				"buffer_size": 4409,
-				"line_ending": "Windows"
+				"buffer_size": 613,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/alex/test/examples/blog/docpad.coffee",
+			"settings":
+			{
+				"buffer_size": 17222,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -599,9 +607,21 @@
 	],
 	"file_history":
 	[
+		"/C/Users/alex/blue-borders/src/documents/events/2015-10-07_08.html.md",
+		"/C/Users/alex/Downloads/Untitled2.md",
+		"/C/Users/alex/blue-borders/src/documents/events/2015-10-13_10.html",
+		"/C/Users/alex/blue-borders/src/layouts/default.html.eco",
+		"/C/Users/alex/blue-borders/src/documents/index.html",
+		"/C/Users/alex/blue-borders/src/documents/events/2015-10-05_10.html.md",
+		"/C/Users/alex/test/examples/blog/app",
+		"/C/Users/alex/test/examples/blog/package.json",
+		"/C/Users/alex/test/package.json",
+		"/C/Users/alex/Downloads/blue-borders ideas.htm",
+		"/C/Users/alex/Downloads/blue-borders ideas.mht",
+		"/C/Users/alex/blue-borders/src/documents/events/2015-10-12_10.html.md",
+		"/C/Users/alex/blue-borders/package.json",
 		"/C/Users/alex/blue-borders/src/documents/commentaries/2011-victims.html",
 		"/C/Users/alex/blue-borders/src/documents/commentaries/2011-arrivals.html",
-		"/C/Users/alex/blue-borders/src/layouts/default.html.eco",
 		"/C/Users/alex/blue-borders/src/documents/commentaries/2011-general.html",
 		"/C/Users/alex/blue-borders/src/documents/commentaries/2011-problems.html",
 		"/C/Users/alex/blue-borders/src/documents/commentaries/2014-12.html",
@@ -611,7 +631,6 @@
 		"/C/Users/alex/blue-borders/src/documents/commentaries/2011-solutions.html",
 		"/C/Users/alex/blue-borders/src/documents/commentaries/2012-2011.html.md",
 		"/C/Users/alex/blue-borders/src/documents/commentaries/2013-12.html",
-		"/C/Users/alex/blue-borders/package.json",
 		"/C/Users/alex/blue-borders/docpad.coffee",
 		"/C/Users/alex/blue-borders/blue-borders.sublime-project",
 		"/C/Users/alex/blue-borders/src/documents/atom.xml.eco",
@@ -715,18 +734,7 @@
 		"/C/Users/alex/ae/src/components/main/export/panel4/wellFormat.js",
 		"/C/Users/alex/ae/src/components/main/export/panel4/addCollectionsOfSynonyms.js",
 		"/C/Users/alex/ae/src/components/main/export/panel4/addCollectionsOfSynonym.js",
-		"/C/Users/alex/ae/src/components/main/export/panel4/myTypeOf.js",
-		"/C/Users/alex/ae/src/components/main/export/panel4/alertErrorBuildingExportData.js",
-		"/C/Users/alex/ae/src/components/main/export/panel2/inputGuid.js",
-		"/C/Users/alex/ae/src/components/main/export/panel2/fieldsTaxonomyPanel.js",
-		"/C/Users/alex/ae/src/components/main/export/panel4/buildExportData.js",
-		"/C/Users/alex/ae/src/modules/getItemsFromLocalDb.js",
-		"/C/Users/alex/ae/src/components/main/export/panel4/optionsChoosen.js",
-		"/C/Users/alex/ae/src/components/main/export/panel1/buttonTaxonomienZusammenfassen.js",
-		"/C/Users/alex/ae/src/components/main/export/panel4/format.js",
-		"/C/Users/alex/ae/src/components/main/export/panel4/wellSoGehts.js",
-		"/C/Users/alex/ae/src/components/main/export/panel3/fieldsTaxonomy.js",
-		"/C/Users/alex/ae/src/components/main/export/panel3/wellRelationsOptions.js"
+		"/C/Users/alex/ae/src/components/main/export/panel4/myTypeOf.js"
 	],
 	"find":
 	{
@@ -826,6 +834,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"\n	</br></br>",
+			"**",
 			"span",
 			"</span>",
 			"span",
@@ -951,9 +961,7 @@
 			"span",
 			"</span>",
 			"<span style=\"font-size: 12pt;\">",
-			"<p style=\"margin-left: 30px;\">",
-			"</span>",
-			"<span style=\"color: #000000;\">"
+			"<p style=\"margin-left: 30px;\">"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -961,6 +969,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"",
+			"<h2>",
 			"",
 			"</p>",
 			"</a>",
@@ -1086,9 +1096,7 @@
 			"<p>",
 			"td",
 			"",
-			"</a>",
-			"",
-			"span class='source-title-text'"
+			"</a>"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1099,7 +1107,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -1108,15 +1116,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1515,
+						"buffer_size": 1524,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								195,
-								195
+								1490,
+								1490
 							]
 						],
 						"settings":
@@ -1125,39 +1133,70 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 160.0,
+						"translation.y": 2400.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "src/layouts/default.html.eco",
+					"file": "/C/Users/alex/test/examples/blog/package.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4409,
+						"buffer_size": 613,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2937,
-								2937
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/eco/Syntaxes/HTML (ECO).tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1760.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/alex/test/examples/blog/docpad.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17222,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1067,
+								1067
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 609.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1202,7 +1241,7 @@
 	"project": "blue-borders.sublime-project",
 	"replace":
 	{
-		"height": 90.0
+		"height": 154.0
 	},
 	"save_all_on_build": true,
 	"select_file":
