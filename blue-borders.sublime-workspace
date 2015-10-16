@@ -523,7 +523,7 @@
 			"file": "src/documents/styles/style.css.styl",
 			"settings":
 			{
-				"buffer_size": 1524,
+				"buffer_size": 1683,
 				"line_ending": "Windows"
 			}
 		},
@@ -536,11 +536,19 @@
 			}
 		},
 		{
-			"file": "/C/Users/alex/test/examples/blog/docpad.coffee",
+			"file": "src/documents/pages/actors.html",
 			"settings":
 			{
-				"buffer_size": 17222,
-				"line_ending": "Unix"
+				"buffer_size": 13265,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/documents/pages/publicationsAcademic.html",
+			"settings":
+			{
+				"buffer_size": 12927,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -602,11 +610,17 @@
 		"/C/Users/alex/blue-borders",
 		"/C/Users/alex/blue-borders/src",
 		"/C/Users/alex/blue-borders/src/documents",
+		"/C/Users/alex/blue-borders/src/documents/pages",
 		"/C/Users/alex/blue-borders/src/documents/styles",
 		"/C/Users/alex/blue-borders/src/layouts"
 	],
 	"file_history":
 	[
+		"/C/Users/alex/blue-borders/src/documents/pages/sources.html",
+		"/C/Users/alex/blue-borders/src/documents/pages/aboutUs.html",
+		"/C/Users/alex/blue-borders/README.md",
+		"/C/Users/alex/blue-borders/docpad.coffee",
+		"/C/Users/alex/test/examples/blog/docpad.coffee",
 		"/C/Users/alex/blue-borders/src/documents/events/2015-10-07_08.html.md",
 		"/C/Users/alex/Downloads/Untitled2.md",
 		"/C/Users/alex/blue-borders/src/documents/events/2015-10-13_10.html",
@@ -631,13 +645,11 @@
 		"/C/Users/alex/blue-borders/src/documents/commentaries/2011-solutions.html",
 		"/C/Users/alex/blue-borders/src/documents/commentaries/2012-2011.html.md",
 		"/C/Users/alex/blue-borders/src/documents/commentaries/2013-12.html",
-		"/C/Users/alex/blue-borders/docpad.coffee",
 		"/C/Users/alex/blue-borders/blue-borders.sublime-project",
 		"/C/Users/alex/blue-borders/src/documents/atom.xml.eco",
 		"/C/Users/alex/blue-borders-old/Procfile",
 		"/C/Users/alex/blue-borders/.gitignore",
 		"/C/Users/alex/blue-borders-old/LICENSE.md",
-		"/C/Users/alex/blue-borders/README.md",
 		"/C/Users/alex/blue-borders-old/README.md",
 		"/C/Users/alex/blue-borders/src/render/pages/commentaries.html.eco",
 		"/C/Users/alex/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
@@ -731,10 +743,7 @@
 		"/C/Users/alex/ae/src/components/main/export/panel1/wellTaxonomienZusammenfassen.js",
 		"/C/Users/alex/ae/src/components/main/export/panel1/alertGroups.js",
 		"/C/Users/alex/ae/src/modules/getFieldsForGroupsToExportByCollectionType.js",
-		"/C/Users/alex/ae/src/components/main/export/panel4/wellFormat.js",
-		"/C/Users/alex/ae/src/components/main/export/panel4/addCollectionsOfSynonyms.js",
-		"/C/Users/alex/ae/src/components/main/export/panel4/addCollectionsOfSynonym.js",
-		"/C/Users/alex/ae/src/components/main/export/panel4/myTypeOf.js"
+		"/C/Users/alex/ae/src/components/main/export/panel4/wellFormat.js"
 	],
 	"find":
 	{
@@ -834,6 +843,70 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"profile",
+			"home",
+			" style=\"font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 12px; margin-bottom: 0pt; margin-left: 90px;\"",
+			"</span></p>",
+			"</span></span></p>",
+			"<span style=\"color: #000000;\">",
+			"<span style=\"color: #000000; font-size: 12pt;\">",
+			"\"\"",
+			" style=\"color: #757575;",
+			"<span style=\"color: #0000ff;\">",
+			"h2",
+			"</span></a>",
+			"<span style=\"color: #3366ff;\">",
+			" style=\"margin-left: 90px; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 12px;\">",
+			"	<p style=\"margin-left: 90px; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 12px;\"> </p>",
+			"</span></p>",
+			"<span style=\"font-size: 12pt;\">",
+			" style=\"margin-bottom: 0pt; margin-left: 90px; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 12px;\"",
+			"	<p style=\"margin-bottom: 0pt; margin-left: 90px; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 12px;\"> </p>",
+			"	<p style=\"margin-bottom: 0pt; margin-left: 90px; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 12px; text-align: center;\"> </p>",
+			"col-md-6",
+			"<span style=\"color: #3366ff;\">",
+			" style=\"margin-bottom: 0pt;\"",
+			"<span style=\"font-size: 12pt;\">",
+			" style=\"margin-bottom: 0pt; margin-left: 120px;\"",
+			"<p style=\"margin-bottom: 0.0001pt;\"> </p>",
+			"img",
+			"actors",
+			"tabpanel",
+			"settings",
+			"messages",
+			"h1",
+			"profile",
+			"h1",
+			"Your",
+			"col400",
+			"col500",
+			"<span style=\"font-family: arial,helvetica,sans-serif;\">",
+			"<span style=\"color: #0000ff; text-decoration: underline;\">",
+			"<span style=\"font-size: medium;\">",
+			"<span style=\"color: #000000;\">",
+			"<span style=\"color: #0000ff; font-size: 12pt;\">",
+			"<span style=\"color: #000000; font-size: 12pt;\">",
+			"<p><strong><span style=\"text-decoration: underline;\"><span style=\"font-size: 14pt;\">",
+			"<span style=\"font-size: 14pt; color: #0000ff;\">",
+			"<span style=\"font-size: 12pt; font-family: arial,helvetica,sans-serif;\">",
+			"<span style=\"font-family: verdana,geneva; font-size: 12pt;\">",
+			"<span style=\"font-size: medium; color: #0000ff;\">",
+			"<span style=\"font-family: arial, helvetica, sans-serif; font-size: 12pt; color: #0000ff;\">",
+			"<span style=\"font-family: arial,helvetica,sans-serif; font-size: 12pt;\">",
+			"<strong></strong>",
+			"<span style=\"font-size: 12pt; color: #0000ff;\">",
+			"<strong></strong>",
+			"</span></span> </p>",
+			"</span></span></p>",
+			"</span></a>",
+			"<span style=\"color: #3366ff;\">",
+			"</span></span></p>",
+			"</span></a></span>",
+			"<span style=\"color: #0000ff;\">",
+			"<p style=\"text-align: center;\">",
+			"<span style=\"font-size: 12pt;\">",
+			"	<p style=\"text-align: center;\">  </p>",
+			"	<p style=\"text-align: center;\"> </p>",
 			"\n	</br></br>",
 			"**",
 			"span",
@@ -897,71 +970,7 @@
 			"</span></p>",
 			"span",
 			"</span></span></p>",
-			"<span style=\"font-size: 10pt;\">",
-			" </span></span></p>",
-			"	<p style=\"margin-bottom: 0.0001pt;\"><br /> </p>",
-			"	<p style=\"margin-bottom: 0pt;\"> </p>",
-			"	<p style=\"text-align: left; margin-bottom: 0pt; margin-left: 240px;\"> </p>",
-			"	<p>  </p>",
-			"<p><span style=\"font-size: 10pt;\"><strong>",
-			"	<p><span style=\"font-size: small;\"><br /></span></p>",
-			"	<p style=\"margin-left: 30px;\"> <span style=\"font-size: 10pt;\"><br /></span></p>",
-			"	<p style=\"margin-left: 30px;\"> </p>",
-			"</span></strong></p>",
-			"<p style=\"text-align: center; margin-left: 30px;\"><strong>",
-			"</span></strong></p>",
-			"<p><strong>",
-			"	<p><span style=\"font-size: 10pt;\">  </span></p>",
-			"	<p><span style=\"font-size: 10pt;\"> </span></p>",
-			"	<p style=\"margin-bottom: 0.0001pt;\"> <span style=\"font-size: 10pt;\"><br /></span></p>",
-			"</span></a>",
-			"<span style=\"color: #3366ff;\">",
-			"<p style=\"margin-bottom: 0pt; margin-left: 30px;\">",
-			"<span style=\"font-size: 12pt;\">",
-			"	<p><span style=\"font-size: 10pt;\"> </span></p>",
-			"	<p><span style=\"font-size: 12pt;\"> </span></p>",
-			"<span style=\"font-size: 10pt;\"><span style=\"font-size: 12pt;\">",
-			"<p style=\"text-align: left; margin-bottom: 0pt; margin-left: 30px;\">",
-			"	<p style=\"margin-bottom: 0pt; margin-left: 30px;\"><span style=\"font-size: 10pt;\"><br /></span><span style=\"font-size: 10pt;\"><br /></span></p>",
-			"	<p style=\"margin-bottom: 0pt; margin-left: 30px;\"><span style=\"font-size: 10pt;\"><br /></span></p>",
-			"	<p style=\"margin-bottom: 0pt; margin-left: 30px;\"> </p>",
-			"	<p style=\"margin-bottom: 0.0001pt;\"> </p>",
-			"</span></span></strong></p>",
-			"<p><strong><span style=\"font-size: 10pt;\"><span style=\"font-size: 12pt;\">",
-			"</span></span></strong> </p>",
-			"<p style=\"text-align: center; margin-bottom: 0pt;\"><strong><span style=\"font-size: 10pt;\"><span style=\"font-size: 12pt;\">",
-			"	<p> </p>",
-			"<p style=\"text-align: center; margin-bottom: 0pt; margin-left: 30px;\">",
-			"<span style=\"line-height: 115%; font-size: 12pt;\">",
-			"<strong></strong>",
-			"	<p style=\"text-align: center; margin-bottom: 0pt;\"> </p>",
-			"	<p>   </p>",
-			"	<p> </p>",
-			"span",
-			"</span>",
-			"span",
-			"</a></span>",
-			"span",
-			"color:",
-			"</span></a>",
-			"<span style=\"color: #3366ff;\">",
-			"</span></p>",
-			"</strong></span></p>",
-			"<p><strong>",
-			"	<p> </span></p>",
-			"<p style=\"margin-left: 30px;\">",
-			"<p style=\"text-align: center; margin-left: 30px;\">",
-			"<span style=\"font-size: 12pt;\">",
-			"	<p style=\"margin-left: 30px;\"> </p>",
-			"	<p style=\"text-align: center; margin-left: 30px;\"> </p>",
-			"<strong></strong>",
-			"	<p><span style=\"font-size: 10pt;\"> </span></p>",
-			"	<p>   </p>",
-			"	<p> </p>",
-			"span",
-			"</span>",
-			"<span style=\"font-size: 12pt;\">",
-			"<p style=\"margin-left: 30px;\">"
+			"<span style=\"font-size: 10pt;\">"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -969,6 +978,34 @@
 		"regex": false,
 		"replace_history":
 		[
+			"institutesCenters",
+			"articlesBooks",
+			"",
+			"</p>",
+			"",
+			"\"",
+			"",
+			"h1",
+			"</a>",
+			"",
+			"</p>",
+			"",
+			"col-sm-6",
+			"",
+			"un",
+			"ceu",
+			"eu",
+			"col400",
+			"",
+			"<h2>",
+			"",
+			"</p>",
+			"</a>",
+			"",
+			"</p>",
+			"</a>",
+			"",
+			"<p>",
 			"",
 			"<h2>",
 			"",
@@ -1068,46 +1105,18 @@
 			"</h2>",
 			"<h2>",
 			"</a>",
-			"",
-			"</p>",
-			"<p>",
-			"",
-			"</h2>",
-			"<h2>",
-			"</h2>",
-			"<h2>",
-			"",
-			"</h2>",
-			"<h2>",
-			"",
-			"</h2>",
-			"<h2>",
-			"",
-			"</a>",
-			"",
-			"</p>",
-			"",
-			"<p>",
-			"</a>",
-			"",
-			"</p>",
-			"<p>",
-			"",
-			"<p>",
-			"td",
-			"",
-			"</a>"
+			""
 		],
 		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
-		"whole_word": false,
+		"whole_word": true,
 		"wrap": false
 	},
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -1116,15 +1125,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1524,
+						"buffer_size": 1683,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1490,
-								1490
+								1310,
+								1310
 							]
 						],
 						"settings":
@@ -1133,10 +1142,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2400.0,
+						"translation.y": 2296.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -1166,34 +1175,60 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "/C/Users/alex/test/examples/blog/docpad.coffee",
+					"file": "src/documents/pages/actors.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 17222,
+						"buffer_size": 13265,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1067,
-								1067
+								831,
+								837
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 609.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/documents/pages/publicationsAcademic.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12927,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8680,
+								8680
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 5115.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1241,7 +1276,7 @@
 	"project": "blue-borders.sublime-project",
 	"replace":
 	{
-		"height": 154.0
+		"height": 90.0
 	},
 	"save_all_on_build": true,
 	"select_file":
