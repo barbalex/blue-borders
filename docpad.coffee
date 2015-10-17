@@ -101,6 +101,10 @@ docpadConfig = {
 			)
 			return sum
 
+		getNumberOfEvents: ->
+			events = @getCollection('events').toJSON()
+			return events.length
+
 
 	# =================================
 	# Collections

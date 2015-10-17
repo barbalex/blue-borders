@@ -21,6 +21,7 @@ pageOrder: 1
 			<td>
 			</td>
 			<td>
+				<%= @getNumberOfEvents() %>
 			</td>
 			<td style='text-align: right;'>
 				<%= @getSumOfArrivalsFromEvents() %>
