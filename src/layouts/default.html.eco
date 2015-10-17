@@ -19,7 +19,7 @@
 	<%- @getBlock('meta').toHTML() %>
 
 	<!-- Mobile viewport optimized: h5bp.com/viewport -->
-	<meta name='viewport' content='width=device-width' />
+	<meta name='viewport' content='width=device-width, initial-scale=1' />
 
 	<!-- Icons -->
 		<link rel='shortcut icon' href='images/icons/favicon.ico'>
