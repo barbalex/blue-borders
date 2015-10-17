@@ -79,29 +79,51 @@ docpadConfig = {
 			# Merge the document keywords with the site keywords
 			@site.keywords.concat(@document.keywords or []).join(', ')
 
+		getSumOfArrivalsFromEvents: ->
+			events = @getCollection('events').toJSON()
+			sum = 0
+			events.forEach((event) ->
+				arrivals = 0
+				if event.arrivals
+					arrivals = parseInt(event.arrivals, 10)
+				sum = sum + arrivals
+			)
+			return sum
+
+		getSumOfVictimsFromEvents: ->
+			events = @getCollection('events').toJSON()
+			sum = 0
+			events.forEach((event) ->
+				victims = 0
+				if event.victims
+					victims = parseInt(event.victims, 10)
+				sum = sum + victims
+			)
+			return sum
+
 
 	# =================================
 	# Collections
 	# These are special collections that our website makes available to us
 
 	collections:
+		# used to build the menu left of publications
 		pages: (database) ->
 			database.findAllLive({pageOrder: $exists: true}, [pageOrder:1,title:1])
 
+		# used to build the menu for publications
 		publicationPages: (database) ->
 			database.findAllLive({publicationPageOrder: $exists: true}, [publicationPageOrder:1,title:1])
 
+		# used to build the menu right of publications
 		pagesAfterPublications: (database) ->
 			database.findAllLive({pagesAfterPublicationsOrder: $exists: true}, [pagesAfterPublicationsOrder:1,title:1])
 
 		events: (database) ->
-			database.findAllLive({tags:$has:'event'}, [name:-1])
-
-		numbers: (database) ->
-			database.findAllLive({tags:$has:'numbers'}, [datum:-1])
+			database.findAllLive({articleType:$eq:'event'}, [name:-1])
 
 		commentaries: (database) ->
-			database.findAllLive({tags:$has:'commentary'}, [datum:-1])
+			database.findAllLive({articleType:$eq:'commentary'}, [datum:-1])
 
 
 	# =================================

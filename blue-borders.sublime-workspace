@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"op",
+				"opacity"
+			],
+			[
+				"nav",
+				"navbar-inverse"
+			],
+			[
 				"onAc",
 				"onActivePathStoreChange"
 			],
@@ -506,14 +514,6 @@
 			[
 				"pcn",
 				"pcNamesKeys"
-			],
-			[
-				"pcNameK",
-				"pcNameKeysUnique"
-			],
-			[
-				"prop",
-				"propertyCollections"
 			]
 		]
 	},
@@ -523,47 +523,55 @@
 			"file": "src/documents/styles/style.css.styl",
 			"settings":
 			{
-				"buffer_size": 1683,
+				"buffer_size": 1589,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/alex/test/examples/blog/package.json",
+			"file": "src/layouts/default.html.eco",
 			"settings":
 			{
-				"buffer_size": 613,
+				"buffer_size": 4615,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/alex/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 241,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/documents/pages/actors.html",
+			"file": "docpad.coffee",
 			"settings":
 			{
-				"buffer_size": 13265,
+				"buffer_size": 4770,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/documents/pages/events.html.eco",
+			"settings":
+			{
+				"buffer_size": 1075,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/documents/pages/publicationsAcademic.html",
+			"file": "src/documents/events/2015-09-06_10.html",
 			"settings":
 			{
-				"buffer_size": 13262,
+				"buffer_size": 324,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/documents/pages/publicationsEu.html",
+			"file": "src/documents/events/2015-10-13_10.html",
 			"settings":
 			{
-				"buffer_size": 14220,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/documents/pages/publicationsIoNgo.html",
-			"settings":
-			{
-				"buffer_size": 38619,
+				"buffer_size": 371,
 				"line_ending": "Windows"
 			}
 		}
@@ -575,17 +583,17 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 127.0,
-		"last_filter": "remove",
+		"height": 173.0,
+		"last_filter": "install",
 		"selected_items":
 		[
 			[
-				"remove",
-				"Package Control: Remove Package"
-			],
-			[
 				"install",
 				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
 			],
 			[
 				"Package Control: install",
@@ -626,41 +634,58 @@
 		"/C/Users/alex/blue-borders",
 		"/C/Users/alex/blue-borders/src",
 		"/C/Users/alex/blue-borders/src/documents",
+		"/C/Users/alex/blue-borders/src/documents/events",
 		"/C/Users/alex/blue-borders/src/documents/pages",
 		"/C/Users/alex/blue-borders/src/documents/styles",
 		"/C/Users/alex/blue-borders/src/layouts"
 	],
 	"file_history":
 	[
+		"/C/Users/alex/blue-borders/src/documents/events/2015-10-06_10.html",
+		"/C/Users/alex/blue-borders/src/documents/events/2015-10-07_08.html",
+		"/C/Users/alex/blue-borders/src/documents/events/2015-10-07_09.html",
+		"/C/Users/alex/blue-borders/src/documents/events/2015-10-07_10.html",
+		"/C/Users/alex/blue-borders/src/documents/events/2015-10-09_10.html",
+		"/C/Users/alex/blue-borders/src/documents/events/2015-10-12_10.html.md",
+		"/C/Users/alex/blue-borders/src/documents/events/2015-10-13_10.html",
+		"/C/Users/alex/blue-borders/src/documents/events/2015-10-06_09.html.md",
+		"/C/Users/alex/blue-borders/src/documents/commentaries/2011-arrivals.html",
+		"/C/Users/alex/blue-borders/src/documents/commentaries/2011-general.html",
+		"/C/Users/alex/blue-borders/src/documents/commentaries/2011-problems.html",
+		"/C/Users/alex/blue-borders/src/documents/commentaries/2011-solutions.html",
+		"/C/Users/alex/blue-borders/src/documents/commentaries/2011-victims.html",
+		"/C/Users/alex/blue-borders/src/documents/commentaries/2012-06.html",
+		"/C/Users/alex/blue-borders/src/documents/commentaries/2012-12.html",
+		"/C/Users/alex/blue-borders/src/documents/commentaries/2012-2011.html.md",
+		"/C/Users/alex/blue-borders/src/documents/commentaries/2013-06.html",
+		"/C/Users/alex/blue-borders/src/documents/commentaries/2013-12.html",
+		"/C/Users/alex/blue-borders/src/documents/commentaries/2014-12.html",
+		"/C/Users/alex/blue-borders/src/documents/events/2015-10-05_10.html.md",
+		"/C/Users/alex/blue-borders/src/documents/events/2015-10-06_10.html.md",
+		"/C/Users/alex/blue-borders/src/documents/events/2015-10-07_08.html.md",
+		"/C/Users/alex/blue-borders/src/documents/events/2015-10-07_09.html.md",
+		"/C/Users/alex/blue-borders/src/documents/events/2015-10-07_10.html.md",
+		"/C/Users/alex/blue-borders/src/documents/events/2015-10-09_10.html.md",
+		"/C/Users/alex/blue-borders/src/documents/events/2015-10-13_10.html.md",
+		"/C/Users/alex/blue-borders/src/documents/pages/numbers.html.eco",
+		"/C/Users/alex/blue-borders/src/documents/index.html",
+		"/C/Users/alex/test/examples/blog/package.json",
+		"/C/Users/alex/blue-borders/src/documents/pages/publicationsIoNgo.html",
+		"/C/Users/alex/blue-borders/src/documents/pages/publicationsEu.html",
+		"/C/Users/alex/blue-borders/src/documents/pages/publicationsAcademic.html",
+		"/C/Users/alex/blue-borders/src/documents/pages/actors.html",
 		"/C/Users/alex/blue-borders/src/documents/pages/sources.html",
 		"/C/Users/alex/blue-borders/src/documents/pages/aboutUs.html",
 		"/C/Users/alex/blue-borders/README.md",
 		"/C/Users/alex/blue-borders/docpad.coffee",
 		"/C/Users/alex/test/examples/blog/docpad.coffee",
-		"/C/Users/alex/blue-borders/src/documents/events/2015-10-07_08.html.md",
 		"/C/Users/alex/Downloads/Untitled2.md",
-		"/C/Users/alex/blue-borders/src/documents/events/2015-10-13_10.html",
 		"/C/Users/alex/blue-borders/src/layouts/default.html.eco",
-		"/C/Users/alex/blue-borders/src/documents/index.html",
-		"/C/Users/alex/blue-borders/src/documents/events/2015-10-05_10.html.md",
 		"/C/Users/alex/test/examples/blog/app",
-		"/C/Users/alex/test/examples/blog/package.json",
 		"/C/Users/alex/test/package.json",
 		"/C/Users/alex/Downloads/blue-borders ideas.htm",
 		"/C/Users/alex/Downloads/blue-borders ideas.mht",
-		"/C/Users/alex/blue-borders/src/documents/events/2015-10-12_10.html.md",
 		"/C/Users/alex/blue-borders/package.json",
-		"/C/Users/alex/blue-borders/src/documents/commentaries/2011-victims.html",
-		"/C/Users/alex/blue-borders/src/documents/commentaries/2011-arrivals.html",
-		"/C/Users/alex/blue-borders/src/documents/commentaries/2011-general.html",
-		"/C/Users/alex/blue-borders/src/documents/commentaries/2011-problems.html",
-		"/C/Users/alex/blue-borders/src/documents/commentaries/2014-12.html",
-		"/C/Users/alex/blue-borders/src/documents/commentaries/2013-06.html",
-		"/C/Users/alex/blue-borders/src/documents/commentaries/2012-12.html",
-		"/C/Users/alex/blue-borders/src/documents/commentaries/2012-06.html",
-		"/C/Users/alex/blue-borders/src/documents/commentaries/2011-solutions.html",
-		"/C/Users/alex/blue-borders/src/documents/commentaries/2012-2011.html.md",
-		"/C/Users/alex/blue-borders/src/documents/commentaries/2013-12.html",
 		"/C/Users/alex/blue-borders/blue-borders.sublime-project",
 		"/C/Users/alex/blue-borders/src/documents/atom.xml.eco",
 		"/C/Users/alex/blue-borders-old/Procfile",
@@ -743,23 +768,7 @@
 		"/C/Users/alex/ae/src/components/main/export/panel2/fieldsPCsPanel.js",
 		"/C/Users/alex/ae/src/components/main/export/panel3/fieldsRCs.js",
 		"/C/Users/alex/ae/src/components/main/export/panel2/fieldsRCsPanel.js",
-		"/C/Users/alex/ae/src/components/main/export/panel3/fieldsPCs.js",
-		"/C/Users/alex/ae/src/components/main/export/panel3/fields.js",
-		"/C/Users/alex/ae/src/components/main/export/panel2/fields.js",
-		"/C/Users/alex/ae/src/components/main/importPc/panel1/inputZusammenfassend.js",
-		"/C/Users/alex/ae/src/components/main/importPc/panel1/inputDatenstand.js",
-		"/C/Users/alex/ae/src/components/main/export/panel2/fieldsTaxonomy.js",
-		"/C/Users/alex/ae/src/components/main/export/panel2/fieldsRCs.js",
-		"/C/Users/alex/ae/src/components/main/export/panel2/fieldsPCs.js",
-		"/C/Users/alex/ae/src/components/main/importRc/tablePreview.js",
-		"/C/Users/alex/ae/src/components/main/importPc/panel2/tablePreview.js",
-		"/C/Users/alex/ae/src/components/main/export/panel1/buttonCombineTaxonomies.js",
-		"/C/Users/alex/ae/src/components/main/export/panel1/panel1.js",
-		"/C/Users/alex/ae/src/components/main/export/panel1/wellCombineTaxonomies.js",
-		"/C/Users/alex/ae/src/components/main/export/panel1/wellTaxonomienZusammenfassen.js",
-		"/C/Users/alex/ae/src/components/main/export/panel1/alertGroups.js",
-		"/C/Users/alex/ae/src/modules/getFieldsForGroupsToExportByCollectionType.js",
-		"/C/Users/alex/ae/src/components/main/export/panel4/wellFormat.js"
+		"/C/Users/alex/ae/src/components/main/export/panel3/fieldsPCs.js"
 	],
 	"find":
 	{
@@ -770,6 +779,8 @@
 		"height": 147.0,
 		"where_history":
 		[
+			"C:\\Users\\alex\\blue-borders, -C:\\Users\\alex\\blue-borders\\node-modules",
+			"C:\\Users\\alex\\blue-borders, -C:\\Users\\alex\\blue-borders\\node-modules, -C:\\Users\\alex\\blue-borders\\.git",
 			"C:\\Users\\alex\\blue-borders, -C:\\Users\\alex\\blue-borders\\node-modules",
 			"C:\\Users\\alex\\blue-borders, -C:\\Users\\alex\\blue-borders\\node-modules\\*",
 			"C:\\Users\\alex\\ae, -C:\\Users\\alex\\ae\\public\\*, -reactSelect.css",
@@ -856,9 +867,63 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"getPreparedTitle",
+			"numbers",
+			"container",
+			"content='width=device-width'",
+			"\"",
+			"</p> ",
+			"Figures",
+			"unsc",
+			"span",
+			" </p>",
+			"<p> </p>",
+			"<p></p> ",
+			"</a></span>",
+			"</em>",
+			"<em>",
+			" style=\"margin-bottom: 0pt; font-size: 12px; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; margin-left: 120px;\"",
+			"<p style=\"font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 12px; margin-bottom: 0pt; margin-left: 90px;\"><span style=\"font-family: arial,helvetica,sans-serif; font-size: 12pt;\"></p>",
+			" style=\"color: #757575; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;\"",
+			"<span style=\"font-family: verdana,geneva; font-size: 12pt;\">",
+			"<strong></strong>",
+			"<span style=\"font-family: 'arial black', 'avant garde';\">",
+			"<span style=\"font-size: 14pt;\">",
+			"<p style=\"font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 12px; margin-bottom: 0pt; margin-left: 90px;\"></p> ",
+			"</span></span></span>",
+			"</span> </a>",
+			"<span style=\"color: #000000; font-size: 12pt;\">",
+			"</span></p>",
+			"<span style=\"font-size: 8pt;\">",
+			"<span style=\"color: #0000ff; font-size: 8pt;\">",
+			"<p> </p> ",
+			"<p></p>",
+			" </span></p>",
+			"   </span></p>",
+			"</a> </span> </span>",
+			"<p>  </span>                                         </span></p>",
+			"</span></span></p>",
+			"</a> </span>",
+			"</a>  </span>",
+			" style=\"font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 12px; margin-bottom: 0pt; margin-left: 150px;\"",
+			"</span> </p>",
+			"<span style=\"color: #0000ff;\">",
+			"<span style=\"color: #000000;\">",
+			"<span style=\"color: #0000ff; font-size: 12pt;\">",
+			"</a></span>",
+			"<span style=\"color: #3366ff;\">",
+			" style=\"color: #757575;\"",
+			"<span style=\"font-size: 12pt;\">",
+			" style=\"font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 12px; margin-bottom: 0pt; margin-left: 120px;\"",
+			"<p style=\"font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 12px; margin-bottom: 0pt; margin-left: 120px;\"> </p>",
+			"</span></a>",
+			"<span style=\"color: #0000ff; text-decoration: underline;\">",
+			" style=\"color: #757575; text-decoration: underline;\"",
+			"<p style=\"font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 12px; margin-bottom: 0pt; margin-left: 90px;\"><span style=\"font-size: 8pt;\"> </span></p>",
+			"<p style=\"font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 12px; margin-bottom: 0pt; margin-left: 90px;\"> </p>",
 			"tab-pane active",
 			"<p> </p>",
 			" style=\"font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 12px; margin-bottom: 0pt; margin-left: 90px;\"",
@@ -932,61 +997,7 @@
 			"actors",
 			"tabpanel",
 			"settings",
-			"messages",
-			"h1",
-			"profile",
-			"h1",
-			"Your",
-			"col400",
-			"col500",
-			"<span style=\"font-family: arial,helvetica,sans-serif;\">",
-			"<span style=\"color: #0000ff; text-decoration: underline;\">",
-			"<span style=\"font-size: medium;\">",
-			"<span style=\"color: #000000;\">",
-			"<span style=\"color: #0000ff; font-size: 12pt;\">",
-			"<span style=\"color: #000000; font-size: 12pt;\">",
-			"<p><strong><span style=\"text-decoration: underline;\"><span style=\"font-size: 14pt;\">",
-			"<span style=\"font-size: 14pt; color: #0000ff;\">",
-			"<span style=\"font-size: 12pt; font-family: arial,helvetica,sans-serif;\">",
-			"<span style=\"font-family: verdana,geneva; font-size: 12pt;\">",
-			"<span style=\"font-size: medium; color: #0000ff;\">",
-			"<span style=\"font-family: arial, helvetica, sans-serif; font-size: 12pt; color: #0000ff;\">",
-			"<span style=\"font-family: arial,helvetica,sans-serif; font-size: 12pt;\">",
-			"<strong></strong>",
-			"<span style=\"font-size: 12pt; color: #0000ff;\">",
-			"<strong></strong>",
-			"</span></span> </p>",
-			"</span></span></p>",
-			"</span></a>",
-			"<span style=\"color: #3366ff;\">",
-			"</span></span></p>",
-			"</span></a></span>",
-			"<span style=\"color: #0000ff;\">",
-			"<p style=\"text-align: center;\">",
-			"<span style=\"font-size: 12pt;\">",
-			"	<p style=\"text-align: center;\">  </p>",
-			"	<p style=\"text-align: center;\"> </p>",
-			"\n	</br></br>",
-			"**",
-			"span",
-			"</span>",
-			"span",
-			"</span></p>",
-			"</span></a>",
-			"<span style=\"color: #3366ff;\">",
-			"	<p> </span></p>",
-			"<p style=\"margin-left: 30px;\">",
-			"<span style=\"font-family: arial,helvetica,sans-serif;\">",
-			"<span style=\"font-family: courier new,courier;\">",
-			"<span style=\"font-size: 12pt;\">",
-			"	<p style=\"margin-left: 30px;\"> </p>",
-			"</strong></span></p>",
-			"<p style=\"text-align: center; margin-left: 30px;\"><span style=\"font-size: 12pt;\"><strong>",
-			"span",
-			"</span></p>",
-			"<span style=\"color: #0000ff;\">",
-			"</a></span>",
-			"</span></a>"
+			"messages"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -994,6 +1005,28 @@
 		"regex": false,
 		"replace_history":
 		[
+			"'",
+			"</p>",
+			"",
+			"</a>",
+			"",
+			" </a>",
+			"",
+			"</p>",
+			"",
+			"</p> ",
+			"</a>  ",
+			"",
+			"</p>",
+			"</a> ",
+			"</a>  ",
+			"",
+			"</p>",
+			"",
+			"</a>",
+			"",
+			"</a>",
+			"",
 			"tab-pane",
 			"",
 			"</a>, ",
@@ -1099,40 +1132,18 @@
 			"</h2>",
 			"<h2>",
 			"",
-			"<p>",
-			"",
-			"</a>",
-			"",
-			"</p>",
-			"</h2>",
-			"<h2>",
-			"",
-			"<p>",
-			"",
-			"<p>",
-			"",
-			"<p>",
-			"</p>",
-			"<p>",
-			"</h2>",
-			"",
-			"</h2>",
-			"<h2>",
-			"",
-			"<h2>",
-			"</a>",
-			""
+			"<p>"
 		],
 		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
-		"whole_word": false,
+		"whole_word": true,
 		"wrap": false
 	},
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -1141,15 +1152,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1683,
+						"buffer_size": 1589,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1310,
-								1310
+								530,
+								530
 							]
 						],
 						"settings":
@@ -1158,34 +1169,62 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2296.0,
+						"translation.y": 576.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/C/Users/alex/test/examples/blog/package.json",
+					"file": "src/layouts/default.html.eco",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 613,
+						"buffer_size": 4615,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								4202,
+								4202
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/eco/Syntaxes/HTML (ECO).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3168.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/alex/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 241,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								233,
+								233
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1195,48 +1234,78 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "src/documents/pages/actors.html",
+					"buffer": 3,
+					"file": "docpad.coffee",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 13265,
+						"buffer_size": 4770,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								831,
-								837
+								2293,
+								2293
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2304.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "src/documents/pages/publicationsAcademic.html",
+					"buffer": 4,
+					"file": "src/documents/pages/events.html.eco",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 13262,
+						"buffer_size": 1075,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								174,
-								159
+								857,
+								857
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/eco/Syntaxes/HTML (ECO).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 641.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/documents/events/2015-09-06_10.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 324,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								307,
+								307
 							]
 						],
 						"settings":
@@ -1251,49 +1320,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "src/documents/pages/publicationsEu.html",
-					"semi_transient": false,
+					"buffer": 6,
+					"file": "src/documents/events/2015-10-13_10.html",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 14220,
+						"buffer_size": 371,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1341,
-								81
-							]
-						],
-						"settings":
-						{
-							"history_list_is_closing": true,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "src/documents/pages/publicationsIoNgo.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 38619,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								76,
-								76
+								0,
+								371
 							]
 						],
 						"settings":
@@ -1304,7 +1344,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
