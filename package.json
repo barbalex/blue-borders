@@ -25,6 +25,8 @@
   "scripts": {
     "startDocpadServer": "node_modules/.bin/docpad-server",
     "start": "docpad run",
-    "deploy": "surge --project ./out --domain blue-borders.surge.sh"
+    "deploy": "surge --project ./out --domain blue-borders.surge.sh",
+    "newEvent": "node src/modules/newEvent.js",
+    "newCommentary": "node src/modules/newCommentary.js"
   }
 }
