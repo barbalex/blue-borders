@@ -28,7 +28,6 @@ layout: post
 `
 
 fs.writeFile(filePathName, content, (error) => {
-  if (error) {
-    return console.log('Sorry, file not written. Error message:', error)
-  }
+  if (error) return console.log('Sorry, file not written. Error message:', error)
+  console.log('File "' + fileName + '" created')
 })

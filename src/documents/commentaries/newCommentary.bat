@@ -1,1 +1,1 @@
-npm run newCommentary
+cmd /k npm run newCommentary

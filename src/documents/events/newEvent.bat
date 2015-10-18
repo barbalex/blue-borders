@@ -1,1 +1,1 @@
-npm run newEvent
+cmd /k npm run newEvent
