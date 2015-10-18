@@ -1,0 +1,1 @@
+cmd /k surge --project ./out --domain blue-borders.surge.sh
