@@ -1,5 +1,11 @@
 'use strict'
 
+/**
+ * creates a new event with prepared header
+ * names event like this on 2015.11.11: '2015-11-11.html'
+ * if '2015-11-11.html' already exists names it '2015-11-11_01.html' and so on
+ */
+
 const fs = require('fs')
 const getUnusedFilename = require('./getUnusedFilename.js')
 const today = new Date()
