@@ -16,10 +16,8 @@ const day = today.getDate()
 const filePath = `./src/documents/commentaries/`
 let fileName = `${year}-${monthDoubleDigit}-${day}`
 const files = fs.readdirSync(filePath)
-console.log('files', files)
 fileName = getUnusedFilename(files, fileName)
 fileName = `${fileName}.html`
-console.log('fileName', fileName)
 const filePathName = `${filePath}${fileName}`
 const content = `---
 title: ${year}
