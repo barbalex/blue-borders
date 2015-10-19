@@ -2,6 +2,7 @@
 title: Events
 layout: page
 pageOrder: 1
+dynamic: true
 ---
 
 
@@ -18,6 +19,7 @@ pageOrder: 1
 		<% end %>
 	</div>
 </div>
+<% console.log('req:', @req) %>
 
 <table class='table table-striped table-responsive'>
 	<thead>

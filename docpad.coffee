@@ -2,6 +2,7 @@
 # It is simply a CoffeeScript Object which is parsed by CSON
 
 _ = require('lodash')
+# getCheckedTags = require('./scripts/getCheckedTags.js')
 
 docpadConfig = {
 

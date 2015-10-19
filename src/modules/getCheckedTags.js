@@ -1,9 +1,8 @@
 'use strict'
 
-let bb = {}
 const $ = window.$
 
-bb.getCheckedTags = () => {
+const getCheckedTags = () => {
   let checked = []
   $('#tags').find('input:checked').each(function () {
     checked.push($(this).attr('name'))
@@ -11,4 +10,4 @@ bb.getCheckedTags = () => {
   return checked
 }
 
-module.exports = bb
+module.exports = getCheckedTags
