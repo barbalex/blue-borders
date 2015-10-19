@@ -5,9 +5,10 @@ pageOrder: 1
 ---
 
 
-<div class="well">
-	<p>Set filters:</p>
-	<div id='tags'>
+<div class="well filter-events">
+	<h4>Set filters:</h4>
+	<div id='tags' class='filter-field'>
+		<p>Tags:</p>
 		<% for tag in @getTagsOfEvents(): %>
 			<div class="checkbox">
 		    <label>
