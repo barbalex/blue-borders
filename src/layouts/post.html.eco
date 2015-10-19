@@ -6,19 +6,3 @@ layout: default
 	<h1><%= @document.title %></h1>
 	<div class="post-content"><%- @content %></div>
 </article>
-
-<footer>
-	<% if @getRelatedDocuments() and @getRelatedDocuments().length: %>
-		<section id="related">
-			<br/>
-			<h4>Related Posts</h4>
-			<nav class="linklist">
-				<% for document in @getRelatedDocuments(): %>
-					<li>
-						<a href="<%= document.url %>"><%= document.title %></a>
-					</li>
-				<% end %>
-			</nav>
-		</section>
-	<% end %>
-</footer>

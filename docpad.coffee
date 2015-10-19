@@ -1,9 +1,6 @@
 # The DocPad Configuration File
 # It is simply a CoffeeScript Object which is parsed by CSON
 
-_ = require('lodash')
-# getCheckedTags = require('./scripts/getCheckedTags.js')
-
 docpadConfig = {
 
 	# =================================
@@ -109,15 +106,6 @@ docpadConfig = {
 			events = @getCollection('events').toJSON()
 			return events.length
 
-		getTagsOfEvents: ->
-			events = @getCollection('events').toJSON()
-			tags = []
-			events.forEach((event) ->
-				if event.tags
-					tags = _.union(tags, event.tags)
-			)
-			return tags
-
 
 	# =================================
 	# Collections
@@ -186,7 +174,6 @@ docpadConfig = {
 				else
 					next()
 }
-
 
 # Export our DocPad Configuration
 module.exports = docpadConfig
