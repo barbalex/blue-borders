@@ -523,7 +523,7 @@
 			"file": "src/documents/styles/style.css.styl",
 			"settings":
 			{
-				"buffer_size": 1757,
+				"buffer_size": 1781,
 				"line_ending": "Windows"
 			}
 		},
@@ -539,15 +539,23 @@
 			"file": "docpad.coffee",
 			"settings":
 			{
-				"buffer_size": 5108,
+				"buffer_size": 5309,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/documents/scripts/script.js.babel",
+			"settings":
+			{
+				"buffer_size": 210,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "src/documents/pages/events.html.eco",
 			"settings":
 			{
-				"buffer_size": 1260,
+				"buffer_size": 1518,
 				"line_ending": "Windows"
 			}
 		}
@@ -610,19 +618,27 @@
 		"/C/Users/alex/blue-borders",
 		"/C/Users/alex/blue-borders/src",
 		"/C/Users/alex/blue-borders/src/documents",
-		"/C/Users/alex/blue-borders/src/documents/commentaries",
 		"/C/Users/alex/blue-borders/src/documents/events",
+		"/C/Users/alex/blue-borders/src/documents/scripts",
 		"/C/Users/alex/blue-borders/src/documents/styles",
+		"/C/Users/alex/blue-borders/src/layouts",
 		"/C/Users/alex/blue-borders/src/modules"
 	],
 	"file_history":
 	[
+		"/C/Users/alex/blue-borders/package.json",
+		"/C/Users/alex/blue-borders/src/documents/index.html",
+		"/C/Users/alex/blue-borders/src/documents/commentaries/2012-06.html",
+		"/C/Users/alex/blue-borders/src/documents/pages/aboutUs.html",
+		"/C/Users/alex/blue-borders/src/documents/commentaries/2014-12.html",
+		"/C/Users/alex/blue-borders/src/documents/commentaries/2013-12.html",
+		"/C/Users/alex/blue-borders/src/documents/commentaries/2013-06.html",
+		"/C/Users/alex/blue-borders/src/documents/commentaries/2012-12.html",
 		"/C/Users/alex/blue-borders/src/documents/commentaries/newCommentary.bat",
 		"/C/Users/alex/blue-borders/src/documents/events/newEvent.bat",
 		"/C/Users/alex/blue-borders/src/modules/newEvent.js",
 		"/C/Users/alex/blue-borders/src/modules/newCommentary.js",
 		"/C/Users/alex/blue-borders/pullFromRemote.bat",
-		"/C/Users/alex/blue-borders/package.json",
 		"/C/Users/alex/blue-borders/start.bat",
 		"/C/Users/alex/blue-borders/deploy.bat",
 		"/C/Users/alex/blue-borders/pushToRemote.bat",
@@ -634,12 +650,7 @@
 		"/C/Users/alex/blue-borders/src/documents/commentaries/2011-problems.html",
 		"/C/Users/alex/blue-borders/src/documents/commentaries/2011-solutions.html",
 		"/C/Users/alex/blue-borders/src/documents/commentaries/2011-victims.html",
-		"/C/Users/alex/blue-borders/src/documents/commentaries/2012-06.html",
-		"/C/Users/alex/blue-borders/src/documents/commentaries/2012-12.html",
 		"/C/Users/alex/blue-borders/src/documents/commentaries/2012-2011.html.md",
-		"/C/Users/alex/blue-borders/src/documents/commentaries/2013-06.html",
-		"/C/Users/alex/blue-borders/src/documents/commentaries/2013-12.html",
-		"/C/Users/alex/blue-borders/src/documents/commentaries/2014-12.html",
 		"/C/Users/alex/blue-borders/src/documents/events/2015-09-06.html",
 		"/C/Users/alex/blue-borders/src/documents/events/2015-10-05.html",
 		"/C/Users/alex/blue-borders/src/documents/events/2015-10-06.html",
@@ -650,7 +661,6 @@
 		"/C/Users/alex/blue-borders/src/documents/events/2015-10-09.html",
 		"/C/Users/alex/blue-borders/src/documents/events/2015-10-12.html.md",
 		"/C/Users/alex/blue-borders/src/documents/events/2015-10-13.html",
-		"/C/Users/alex/blue-borders/src/documents/pages/aboutUs.html",
 		"/C/Users/alex/blue-borders/src/documents/pages/actors.html",
 		"/C/Users/alex/blue-borders/src/documents/pages/publicationsAcademic.html",
 		"/C/Users/alex/blue-borders/src/documents/pages/publicationsEu.html",
@@ -669,7 +679,6 @@
 		"/C/Users/alex/blue-borders/newCommentary.js",
 		"/C/Users/alex/blue-borders/src/modules/newCommentary.js.babel",
 		"/C/$Recycle.Bin/S-1-5-21-3466335340-2332191224-1435377040-1000/$IQX23M6.babel",
-		"/C/Users/alex/blue-borders/src/documents/index.html",
 		"/C/Users/alex/blue-borders/src/documents/404.html.eco",
 		"/C/Users/alex/blue-borders/src/documents/events/2015-09-06_10.html",
 		"/C/Users/alex/blue-borders/src/documents/events/2015-10-06_10.html",
@@ -844,9 +853,20 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"scripts",
+			"getCheckedTags",
+			"scripts",
+			"$",
+			"scripts",
+			"toJSON",
+			"for",
+			"getCollection",
+			"img",
+			"home-title",
+			"<img ",
 			"```",
 			"\\t",
 			"/t",
@@ -963,18 +983,7 @@
 			"<span style=\"color: #000000; font-size: 12pt;\">",
 			"\"\"",
 			" style=\"color: #757575;",
-			"<span style=\"color: #0000ff;\">",
-			"h2",
-			"</span></a>",
-			"<span style=\"color: #3366ff;\">",
-			" style=\"margin-left: 90px; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 12px;\">",
-			"	<p style=\"margin-left: 90px; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 12px;\"> </p>",
-			"</span></p>",
-			"<span style=\"font-size: 12pt;\">",
-			" style=\"margin-bottom: 0pt; margin-left: 90px; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 12px;\"",
-			"	<p style=\"margin-bottom: 0pt; margin-left: 90px; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 12px;\"> </p>",
-			"	<p style=\"margin-bottom: 0pt; margin-left: 90px; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 12px; text-align: center;\"> </p>",
-			"col-md-6"
+			"<span style=\"color: #0000ff;\">"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -1120,7 +1129,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -1129,15 +1138,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1757,
+						"buffer_size": 1781,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1401,
-								1401
+								300,
+								300
 							]
 						],
 						"settings":
@@ -1146,10 +1155,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2176.0,
+						"translation.y": 344.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -1165,8 +1174,8 @@
 						"selection":
 						[
 							[
-								4201,
-								4201
+								4410,
+								4417
 							]
 						],
 						"settings":
@@ -1175,10 +1184,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 384.0,
+						"translation.y": 3057.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -1187,15 +1196,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5108,
+						"buffer_size": 5309,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5107,
-								5107
+								1299,
+								1299
 							]
 						],
 						"settings":
@@ -1204,27 +1213,55 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 4992.0,
+						"translation.y": 1176.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "src/documents/pages/events.html.eco",
+					"file": "src/documents/scripts/script.js.babel",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1260,
+						"buffer_size": 210,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								677,
-								677
+								44,
+								44
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/documents/pages/events.html.eco",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1518,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								298,
+								298
 							]
 						],
 						"settings":
@@ -1233,7 +1270,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 896.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

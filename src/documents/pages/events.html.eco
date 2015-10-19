@@ -4,6 +4,20 @@ layout: page
 pageOrder: 1
 ---
 
+
+<div class="well">
+	<p>Set filters:</p>
+	<div id='tags'>
+		<% for tag in @getTagsOfEvents(): %>
+			<div class="checkbox">
+		    <label>
+		      <input type="checkbox" name=<%= tag %> checked> <%= tag %>
+		    </label>
+	  	</div>
+		<% end %>
+	</div>
+</div>
+
 <table class='table table-striped table-responsive'>
 	<thead>
 		<tr>

@@ -1,5 +1,8 @@
 # The DocPad Configuration File
 # It is simply a CoffeeScript Object which is parsed by CSON
+
+_ = require('lodash')
+
 docpadConfig = {
 
 	# =================================
@@ -104,6 +107,15 @@ docpadConfig = {
 		getNumberOfEvents: ->
 			events = @getCollection('events').toJSON()
 			return events.length
+
+		getTagsOfEvents: ->
+			events = @getCollection('events').toJSON()
+			tags = []
+			events.forEach((event) ->
+				if event.tags
+					tags = _.union(tags, event.tags)
+			)
+			return tags
 
 
 	# =================================
