@@ -528,14 +528,6 @@
 			}
 		},
 		{
-			"file": "package.json",
-			"settings":
-			{
-				"buffer_size": 1043,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "src/layouts/default.html.eco",
 			"settings":
 			{
@@ -556,30 +548,6 @@
 			"settings":
 			{
 				"buffer_size": 1260,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "pullProjectFromRemote.bat",
-			"settings":
-			{
-				"buffer_size": 28,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/modules/newCommentary.js",
-			"settings":
-			{
-				"buffer_size": 1088,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/modules/newEvent.js",
-			"settings":
-			{
-				"buffer_size": 1136,
 				"line_ending": "Windows"
 			}
 		}
@@ -649,7 +617,18 @@
 	],
 	"file_history":
 	[
+		"/C/Users/alex/blue-borders/src/documents/commentaries/newCommentary.bat",
+		"/C/Users/alex/blue-borders/src/documents/events/newEvent.bat",
+		"/C/Users/alex/blue-borders/src/modules/newEvent.js",
 		"/C/Users/alex/blue-borders/src/modules/newCommentary.js",
+		"/C/Users/alex/blue-borders/pullFromRemote.bat",
+		"/C/Users/alex/blue-borders/package.json",
+		"/C/Users/alex/blue-borders/start.bat",
+		"/C/Users/alex/blue-borders/deploy.bat",
+		"/C/Users/alex/blue-borders/pushToRemote.bat",
+		"/C/Users/alex/_netrc",
+		"/C/Users/alex/.netrc",
+		"/C/Users/alex/blue-borders/src/documents/commentaries/2015-10-18.html",
 		"/C/Users/alex/blue-borders/src/documents/commentaries/2011-arrivals.html",
 		"/C/Users/alex/blue-borders/src/documents/commentaries/2011-general.html",
 		"/C/Users/alex/blue-borders/src/documents/commentaries/2011-problems.html",
@@ -679,8 +658,6 @@
 		"/C/Users/alex/blue-borders/src/documents/pages/sources.html",
 		"/C/Users/alex/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/Users/alex/blue-borders/out/commentaries/2012.06",
-		"/C/Users/alex/blue-borders/src/documents/events/newEvent.bat",
-		"/C/Users/alex/blue-borders/src/documents/commentaries/newCommentary.bat",
 		"/C/Users/alex/blue-borders/newEvent.bat",
 		"/C/Users/alex/blue-borders/src/documents/commentaries/2015-10-18_02.html",
 		"/C/Users/alex/blue-borders/src/documents/events/2015-10-18-10.html",
@@ -692,7 +669,6 @@
 		"/C/Users/alex/blue-borders/newCommentary.js",
 		"/C/Users/alex/blue-borders/src/modules/newCommentary.js.babel",
 		"/C/$Recycle.Bin/S-1-5-21-3466335340-2332191224-1435377040-1000/$IQX23M6.babel",
-		"/C/Users/alex/blue-borders/package.json",
 		"/C/Users/alex/blue-borders/src/documents/index.html",
 		"/C/Users/alex/blue-borders/src/documents/404.html.eco",
 		"/C/Users/alex/blue-borders/src/documents/events/2015-09-06_10.html",
@@ -768,15 +744,7 @@
 		"/C/Users/alex/ae/src/components/main/object/fieldInput.js",
 		"/C/Users/alex/ae/src/styles/main.styl",
 		"/C/Users/alex/ae/src/actions.js",
-		"/C/Users/alex/ae/src/stores.js",
-		"/C/Users/alex/ae/src/components/main/object/textLink.js",
-		"/C/Users/alex/ae/src/components/home.js",
-		"/C/Users/alex/ae/src/components/main/object/relationPartners.js",
-		"/C/Users/alex/ae/src/router.js",
-		"/C/Users/alex/ae/src/modules/getPathFromGuid.js",
-		"/C/Users/alex/ae/src/app.js",
-		"/C/Users/alex/ae/src/components/main/object/relationCollection.js",
-		"/C/Users/alex/ae/src/components/main/export/panel4/filterCollections.js"
+		"/C/Users/alex/ae/src/stores.js"
 	],
 	"find":
 	{
@@ -1152,7 +1120,7 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -1181,41 +1149,11 @@
 						"translation.y": 2176.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "package.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1043,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								985,
-								998
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "src/layouts/default.html.eco",
 					"semi_transient": false,
 					"settings":
@@ -1240,11 +1178,11 @@
 						"translation.y": 384.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "docpad.coffee",
 					"semi_transient": false,
 					"settings":
@@ -1256,8 +1194,8 @@
 						"selection":
 						[
 							[
-								2574,
-								2574
+								5107,
+								5107
 							]
 						],
 						"settings":
@@ -1266,14 +1204,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1496.0,
+						"translation.y": 4992.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "src/documents/pages/events.html.eco",
 					"semi_transient": false,
 					"settings":
@@ -1285,8 +1223,8 @@
 						"selection":
 						[
 							[
-								347,
-								347
+								677,
+								677
 							]
 						],
 						"settings":
@@ -1295,94 +1233,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 64.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "pullProjectFromRemote.bat",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 28,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								28,
-								28
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Batch File/Batch File.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "src/modules/newCommentary.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1088,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								379,
-								379
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 128.0,
+						"translation.y": 896.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "src/modules/newEvent.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1136,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1086,
-								1086
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": -0.0,
-						"translation.y": 864.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]

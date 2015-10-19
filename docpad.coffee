@@ -25,19 +25,19 @@ docpadConfig = {
 
 			# The website description (for SEO)
 			description: """
-				When your website appears in search results in say Google, the text here will be shown underneath your website's title.
+				There are land or 'green' borders, and there are maritime or 'blue' borders. The focus of this website is on the latter - and on migration.
 				"""
 
 			# The website keywords (for SEO) separated by commas
 			keywords: """
-				place, your, website, keywoards, here, keep, them, related, to, the, content, of, your, website
+				migration, migrants, mediterranean, Italy, Malta, Tunisia, Libya
 				"""
 
 			# The website author's name
 			author: "Jürg Martin Gabriel"
 
 			# The website author's email
-			email: "your@email.com"
+			email: "gabriel@ethz.ch"
 
 			# Styles
 			styles: [
